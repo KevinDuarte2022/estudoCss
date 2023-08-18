@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family= Pacifico & family= Slackside+One & display=swap') ;
+body{
+    background: rgb(206, 205, 205);
+}
+.h1{
+    color: blue;
+    font-size: 50px;
+    font-family: 'Pacifico', cursiva;
+}
+h3{
+    font-size: 45px;
+    color: rgb(15, 5, 74);
+    border: 5px solid crimson;
+    margin: 30px 0px 30px 0px; 
+}
+p{
+    margin: 5px;
+    color: rgb(31, 20, 5);
+    letter-spacing: 0.2px;
+    line-height: normal;
+    word-spacing: 2px;
+    font-family: 'Slackside One', cursiva;
+
+
+}
+#bordasolida{
+    
+    border: 5px solid black;
+}
+#bordapontilhada{
+    
+    border: 5px dotted red;
+}
+#bordatrastejada{
+    border: 5px dashed black;
+}
+#bordacolorida{
+    border-left: 5px solid red;
+    border-top: 5px solid rgb(5, 255, 5);
+    border-right: 5px solid blue;
+    border-bottom: 5px solid yellow;
+}
+#bordadupla{
+    border: 15px double orangered;
+}
+#bordaredonda{
+    border: 5px solid chocolate;
+    border-radius: 25px ;/* O rádio é para arredondaer a borda */
+}
+
+.exemplo-back{
+    height: 1000px;
+    background-color: aqua;
+    background-image: url("../img/pexels-nihat-340705.jpg");
+    background-size: cover ;
+    background-position: center;
+    margin-bottom: 50px;
+}
+.carrapato{
+    background: rgb(186, 43, 43);
+    padding: 20px 20px ;
+    display: block;
+    border: none;
+    
+}
+.carrapato a{
+    color: white;
+    padding: 20px 20px ;
+    font: menu;
+    font-size: 20px;
+    text-decoration: none;
+}
+.carrapato a:hover{
+    background: #ccc;
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+    color: red;
+
+}
+.botao{
+    position: fixed;
+    right: 45%;
+    bottom: 10px;
+    margin-left: 37%;
+    background-color: blue;
+    color: white;
+    padding: 30px 50px 30px 50px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+.botao:hover{
+    background: rgb(2, 2, 63);
+
+}
+.div300{
+    max-width: 800px;
+    background-color:rgb(36, 197, 197);
+    margin-bottom: 50px;
+}
+#mundoinvertido{
+    direction: rtl;
+   unicode-bidi: bidi-override;
+}
+a.botao01{
+    display: block;
+    max-width: 700px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 10px;
+    border: solid 4px greenyellow;
+    border-radius: 12px;
+}
+a.botao01:hover{
+    background-color: rgb(0, 55, 0);
+    padding: 15px;
+    border: solid 4px rgb(47, 255, 151);
+  
+}
+a.botao02{
+    display: block;
+    width: 50px;
+    margin-left:10px ;
+    color: blue;
+    border: double 4px blue;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+a.botao02:hover{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 18px;
+}
+a.botao03{
+    display: inline-block;
+    margin-left: 10px;
+    color: black;
+    text-decoration: none;
+
+}
+a.botao03:hover{
+    border-bottom: solid 2px black;
+    color: red;
+}
+a.botao04{
+    display: block;
+    margin-left: 10px;
+    color: blue;
+    font-size: 18px;
+    text-decoration: none;
+}
+a.botao04:hover{
+    font-size: 22px;
+    font-weight: bold;
+}
+a.botao05{
+    display: inline-block;
+    cursor: -webkit-zoom-out;
+}
+.borda{
+    display: block;
+    border: 1px solid red;
+}
+.borda02{
+    display: block;
+    border: 1px solid red;
+    margin-bottom: 30px;
+}
+.borda:hover{
+    display: none;
+}
